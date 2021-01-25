@@ -1,4 +1,4 @@
-FROM	debian:stable
+FROM	debian:stable-slim
 
 RUN	apt-get update && apt-get upgrade -y && \
 	apt-get install -y sudo whois usbutils
